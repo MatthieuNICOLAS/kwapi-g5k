@@ -72,7 +72,6 @@ def load_all_drivers():
 
 
 def load_driver(class_name, probe_ids, probes_names, probe_data_type, kwargs):
-    print "Load", class_name
     """Starts a probe thread."""
     try:
         module = __import__('kwapi.drivers.' + class_name.lower(),
