@@ -14,7 +14,7 @@
       under the License.
 
 ========
-Exemples
+Examples
 ========
 
 Power configuration examples
